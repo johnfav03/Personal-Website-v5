@@ -14,7 +14,11 @@
 
 		<section class="bio">
 			<p>
-				I'm fascinated by the layers that make modern computing possible. Every project begins as another stone in the road — an opportunity to explore a new idea, understand how it works, and add something meaningful to what came before. From compilers and operating systems to processors and embedded hardware, I enjoy uncovering the connections between these layers. I may not know what my castle will look like yet, but every project adds another stone to its foundation.
+				I'm drawn to the stack that make computing possible; 
+                compilers, operating systems, processors, embedded hardware, and everything in between.
+                Digging through these layers unearths countless "stones" - 
+                a tricky bug, an unfamiliar system, a problem that pushes me deeper than expected. 
+                I don't my castle's shape yet - I'm too busy wondering what's under the next stone.
 			</p>
 		</section>
 
