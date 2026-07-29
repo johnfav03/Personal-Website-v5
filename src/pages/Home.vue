@@ -42,7 +42,7 @@ const experiences = [
 				<h1>JOHN FAVRET</h1>
 
 				<div class="socials">
-					<a><
+					<a
 						href="mailto:johnfav@umich.edu"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const experiences = [
 					>
 						<img src="/icon-email.png" alt="Email">
 					</a>
-					<a><
+					<a
 						href="https://www.linkedin.com/in/johnfav"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -58,7 +58,7 @@ const experiences = [
 					>
 						<img src="/icon-linkedin.png" alt="LinkedIn">
 					</a>
-					<a>
+					<a
 						href="https://github.com/johnfav03"
 						target="_blank"
 						rel="noopener noreferrer"
