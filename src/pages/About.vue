@@ -14,11 +14,12 @@
 
 		<section class="bio">
 			<p>
-				I'm drawn to the stack that make computing possible; 
+				I'm drawn to the stack that makes computing possible: 
                 compilers, operating systems, processors, embedded hardware, and everything in between.
-                Digging through these layers unearths countless "stones" - 
-                a tricky bug, an unfamiliar system, a problem that pushes me deeper than expected. 
-                I don't my castle's shape yet - I'm too busy wondering what's under the next stone.
+                Digging through these layers and exploring new technologies unearths countless stones in the form of
+                tricky bugs, unfamiliar systems, and problems that push me deeper than expected.
+                Bit by bit, the stones keep stacking up, yet I don't know what my eventual castle will look like — 
+                I'm too busy wondering what's under the next stone.
 			</p>
 		</section>
 
