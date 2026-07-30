@@ -14,11 +14,14 @@
 
 		<section class="bio">
 			<p>
-				I'm drawn to the stack that makes computing possible: 
+				I've always been drawn to understanding the stack that makes computing possible: 
                 compilers, operating systems, processors, embedded hardware, and everything in between.
-                Digging through these layers and exploring new technologies unearths countless stones in the form of
-                tricky bugs, unfamiliar systems, and problems that push me deeper than expected.
-                Bit by bit, the stones keep stacking up, yet I don't know what my eventual castle will look like — 
+                This curiosity led me to my current role as a software engineer on Microsoft's TypeScript Compiler team, 
+                where I'm fortunate to work alongside engineers who have shaped modern programming languages, 
+                building tools used by millions of developers.
+                This work allows me to continue uncovering stones - 
+                tricky bugs, unfamiliar systems, problems that push me deeper than expected - 
+                and my pile grows with each one. My castle doesn't have a blueprint yet;
                 I'm too busy wondering what's under the next stone.
 			</p>
 		</section>
