@@ -57,4 +57,35 @@ onMounted(() => {
 	>
 		<component :is="page.component" />
 	</Frame>
+
+    <div class="mobile-notice">
+		<p>Sorry, this site isn't available on mobile yet</p>
+	</div>
 </template>
+
+<style scoped>
+.mobile-notice {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.mobile-notice {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		inset: 0;
+		z-index: 100;
+		background: var(--bg-dark);
+		padding: 2rem;
+	}
+
+	.mobile-notice p {
+		color: #CCC;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		line-height: 1.6;
+	}
+}
+</style>
