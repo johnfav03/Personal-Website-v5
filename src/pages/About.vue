@@ -6,8 +6,8 @@
 
 		<section class="quote">
 			<p>
-				"Stones in the road? I'll save every single one,
-				and one day I'll build a castle."
+				Stones in the road? I'll save every single one,
+				and one day I'll build a castle.
 			</p>
 			<span>— Fernando Pessoa</span>
 		</section>
@@ -19,8 +19,8 @@
                 This curiosity led me to my current role as a software engineer on Microsoft's TypeScript Compiler team, 
                 where I'm fortunate to work alongside engineers who have shaped modern programming languages, 
                 building tools used by millions of developers.
-                This work allows me to continue uncovering stones - 
-                tricky bugs, unfamiliar systems, problems that push me deeper than expected - 
+                This work allows me to continue uncovering stones &mdash; 
+                tricky bugs, unfamiliar systems, problems that push me deeper than expected &mdash;
                 and my pile grows with each one. My castle doesn't have a blueprint yet;
                 I'm too busy wondering what's under the next stone.
 			</p>
@@ -61,7 +61,7 @@
 
 .about-header {
 	width: 100%;
-	margin-bottom: clamp(2rem, 5vh, 4rem);
+	margin-bottom: 0.9rem;
 }
 
 .about-header h1 {
@@ -72,24 +72,45 @@
 
 .quote {
 	width: 100%;
-	margin-bottom: clamp(2rem, 5vh, 4rem);
+	margin-bottom: 2rem;
 }
 
 .quote p {
 	max-width: 60rem;
 	margin: 0;
-	font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+	font-size: 1.1rem;
 	line-height: 1.5;
 	font-style: italic;
 	color: #CCC;
 }
 
+.quote p::before,
+.quote p::after {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: clamp(2.25rem, 4vw, 3.5rem);
+	color: var(--acc-thr);
+	line-height: 0;
+	vertical-align: -0.35em;
+}
+
+.quote p::before {
+	content: '\201C';
+	margin-right: 0.2rem;
+}
+
+.quote p::after {
+	content: '\201D';
+	margin-left: 0.1rem;
+}
+
+
 .quote span {
 	display: block;
-	margin-top: 0.75rem;
+	margin-top: 0.5rem;
 	font-size: 0.9rem;
 	padding-left: 2rem;
-	color: var(--acc-thr);
+	color: #777;
 }
 
 .bio {
