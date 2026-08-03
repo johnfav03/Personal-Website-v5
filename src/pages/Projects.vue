@@ -3,22 +3,22 @@ const projects = [
 	{
 		title: "Optimizing Compiler",
 		subtitle: "EECS 483 — Compiler Construction",
-		description: "Built an end-to-end compiler for a custom programming language, implementing lexical analysis, parsing, semantic analysis, intermediate representation, optimization passes, and code generation.",
-		techs: ["Rust", "IR", "Optimization", "Compiler Design"],
+		description: "Built an end-to-end compiler in Rust for a custom language, featuring an SSA-based intermediate representation, dataflow-driven optimization passes, and an x86-64 backend with efficient register allocation.",
+		techs: ["Rust", "SSA IR", "x86-64", "Register Allocation"],
 		image: "thumbnail-compiler.png"
 	},
 	{
-		title: "Out-of-Order Processor",
+		title: "N-Way Superscalar Processor",
 		subtitle: "EECS 470 — Computer Architecture",
-		description: "Designed and implemented a superscalar processor microarchitecture in SystemVerilog, incorporating pipelining, instruction scheduling, branch prediction, and memory hierarchy components.",
-		techs: ["SystemVerilog", "RTL", "CPU Architecture"],
+		description: "Designed a MIPS R10K style superscalar processor in Verilog, featuring early branch recovery and prediction and instruction prefetching, achieving a competitive median clock period of 8.5ns.",
+		techs: ["Verilog", "RTL", "Superscalar", "CPU Architecture"],
 		image: "thumbnail-processor.png"
 	},
 	{
-		title: "Networked File System",
+		title: "Virtual Memory Manager",
 		subtitle: "EECS 482 — Operating Systems",
-		description: "Developed a networked file system from the ground up, implementing client-server communication, file operations, and synchronization primitives while exploring distributed storage and concurrency challenges.",
-		techs: ["C++", "Concurrency", "Memory Management"],
+		description: "Implemented a virtual memory manager (pager) in C++ handling page faults, demand paging with swap- and file-backed pages, and safe synchronization of shared memory across concurrent processes.",
+		techs: ["C++", "Virtual Memory", "Concurrency"],
 		image: "thumbnail-filesys.png"
 	},
 	{
